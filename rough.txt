@@ -1,0 +1,49 @@
+Product 1 : 
+Sparrow
+Max flight speed : 12 m/s
+Vertical takeoff speed : 6m/s
+Flight time : 53 min+
+Coverage area in single flight : 1 sq km +
+Aircraft payload : 2.2kg
+Dest wind : 8 m/s
+Capable : mapping survey , inception.
+Connectivity : 4g to 5g
+Auto RTL fail safe :  battery warning, high wind information
+User friendly plug and play
+
+
+
+
+brand-primary: '#845EC2', // Purple 
+brand-secondary: #4B4453', // Dark Gray
+brand-tertiary: '#BOA8B9', // Lavender Gray
+brand-accent: '#C34A36', // Red-Orange
+brand-highlight: '#FF8066', // Coral 
+
+
+   <Spotlight
+        className="-top-40 left-0 md:left-60 md:-top-20"
+        fill="white"
+      />
+
+
+<Spotlight
+        className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
+        fill="white"
+      />
+      <Spotlight className="h-[80vh] w-[50vw] top-10 left-full" fill="purple" />
+      <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
+
+ 
+      keyframes: {
+        spotlight: {
+          "0%": {
+            opacity: 0,
+            transform: "translate(-72%, -62%) scale(0.5)",
+          },
+          "100%": {
+            opacity: 1,
+            transform: "translate(-50%,-40%) scale(1)",
+          },
+        },
+      },
