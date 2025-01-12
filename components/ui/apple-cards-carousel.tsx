@@ -33,7 +33,7 @@ export const CarouselContext = createContext<{
   onCardClose: (index: number) => void;
   currentIndex: number;
 }>({
-  onCardClose: () => { },
+  onCardClose: () => {},
   currentIndex: 0,
 });
 
@@ -216,25 +216,6 @@ export const Card = ({
           className="object-cover absolute z-10 inset-0"
         />
       </motion.button>
-
-      {open && (
-        <motion.div
-          ref={containerRef}
-          className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
-        >
-          {/* Modal Content */}
-          <div className="bg-white dark:bg-neutral-800 p-8 rounded-lg shadow-lg">
-            <h2 className="text-2xl font-bold">{card.title}</h2>
-            <p className="mt-4">{card.category}</p>
-            <button
-              onClick={handleClose}
-              className="mt-6 bg-red-500 text-white px-4 py-2 rounded"
-            >
-              Close
-            </button>
-          </div>
-        </motion.div>
-      )}
     </>
   );
 };

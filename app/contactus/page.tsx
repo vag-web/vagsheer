@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import PageWrapper from "@/components/wrapper/PageWrapper";
 
@@ -21,7 +21,7 @@ const ContactUs = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8  m-b-1">
               {/* Contact Form */}
               <div className="bg-gray-200 shadow-md rounded-lg p-6">
                 <h2 className="text-lg font-semibold mb-4">Message Us</h2>
@@ -54,7 +54,7 @@ const ContactUs = () => {
                   <textarea
                     placeholder="Leave us a message..."
                     className="border p-2 rounded-md w-full"
-                    rows={4}
+                    rows={8}
                   />
 
                   <button
@@ -98,9 +98,16 @@ const ContactUs = () => {
                   <p className="text-indigo-600">+91 8419874317</p>
                 </div>
                 <div>
-                  <h2 className="text-lg font-semibold">Address</h2>
+                  <h2 className="text-lg font-semibold">Regd. Address</h2>
                   <p className="text-gray-600">8/21, Parasurampur, Sarnath,</p>
-                  <p>Varanasi, Uttar Pradesh, 221007</p>
+                  <p>Varanasi, Uttar Pradesh - 221007</p>
+                  <h2 className="text-lg font-semibold">Corrs. Address</h2>
+                  <p className="text-gray-600">
+                    8/314A.9A, Siyaram enclave khajuri colony pandeypur,
+                  </p>
+                  <p>Varanasi, Uttar Pradesh - 221002</p>
+                  <p className="text-gray-600">D-1141, Indira Nagar,</p>
+                  <p>Lucknow, Uttar Pradesh - 226016</p>
                 </div>
               </div>
             </div>
