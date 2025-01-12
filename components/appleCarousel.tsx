@@ -235,16 +235,16 @@ const data: CardData[] = [
   {
     category: "Village Mapping",
     title: "Monitoring Village Infrastructure.",
-    src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+    src: "/services/serviceImg.jpg",
     content: (
       <DummyContent
         data={[
           {
-            src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+            src: "/services/serviceImg.jpg",
             title: "Village Development Mapping.",
           },
           {
-            src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+            src: "/services/serviceImg.jpg",
             title: "Efficient Mapping of Rural Areas.",
           },
         ]}
@@ -254,16 +254,16 @@ const data: CardData[] = [
   {
     category: "Smart City",
     title: "Developing Smart City Infrastructure.",
-    src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+    src: "/services/serviceImg.jpg",
     content: (
       <DummyContent
         data={[
           {
-            src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+            src: "/services/serviceImg.jpg",
             title: "Smart Infrastructure Design.",
           },
           {
-            src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+            src: "/services/serviceImg.jpg",
             title: "Urban Smart Systems.",
           },
         ]}
@@ -273,16 +273,16 @@ const data: CardData[] = [
   {
     category: "Aerial Surveys",
     title: "High-altitude Aerial Surveys.",
-    src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+    src: "/services/serviceImg.jpg",
     content: (
       <DummyContent
         data={[
           {
-            src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+            src: "/services/serviceImg.jpg",
             title: "Mapping from Above.",
           },
           {
-            src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+            src: "/services/serviceImg.jpg",
             title: "Efficient Data Collection via Aerial Views.",
           },
         ]}
@@ -292,16 +292,16 @@ const data: CardData[] = [
   {
     category: "Mapping",
     title: "Precision Mapping for Projects.",
-    src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+    src: "/services/serviceImg.jpg",
     content: (
       <DummyContent
         data={[
           {
-            src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+            src: "/services/serviceImg.jpg",
             title: "Geospatial Mapping Solutions.",
           },
           {
-            src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+            src: "/services/serviceImg.jpg",
             title: "Accurate Geographic Insights.",
           },
         ]}
@@ -311,16 +311,16 @@ const data: CardData[] = [
   {
     category: "Video Recording",
     title: "High-Quality Video Content.",
-    src: "https://images.unsplash.com/photo-1574158622682-e40e69881006?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+    src: "/services/serviceImg.jpg",
     content: (
       <DummyContent
         data={[
           {
-            src: "https://images.unsplash.com/photo-1574158622682-e40e69881006?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+            src: "/services/serviceImg.jpg",
             title: "Cinematic Visuals.",
           },
           {
-            src: "https://images.unsplash.com/photo-1574158622682-e40e69881006?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+            src: "/services/serviceImg.jpg",
             title: "High Definition Recordings.",
           },
         ]}
@@ -330,16 +330,16 @@ const data: CardData[] = [
   {
     category: "Visual Inspection",
     title: "Advanced Visual Inspections.",
-    src: "https://images.unsplash.com/photo-1559890469-1cb766d74042?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+    src: "/services/serviceImg.jpg",
     content: (
       <DummyContent
         data={[
           {
-            src: "https://images.unsplash.com/photo-1559890469-1cb766d74042?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+            src: "/services/serviceImg.jpg",
             title: "Detailed Visual Analysis.",
           },
           {
-            src: "https://images.unsplash.com/photo-1559890469-1cb766d74042?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+            src: "/services/serviceImg.jpg",
             title: "Enhanced Inspection Techniques.",
           },
         ]}
@@ -349,16 +349,16 @@ const data: CardData[] = [
   {
     category: "Thermal Inspection",
     title: "Thermal Imaging for Detection.",
-    src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+    src: "/services/serviceImg.jpg",
     content: (
       <DummyContent
         data={[
           {
-            src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+            src: "/services/serviceImg.jpg",
             title: "Thermal Data Visualization.",
           },
           {
-            src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+            src: "/services/serviceImg.jpg",
             title: "Heat Signatures Analysis.",
           },
         ]}
@@ -368,16 +368,16 @@ const data: CardData[] = [
   {
     category: "Solar Plants",
     title: "Inspection of Solar Facilities.",
-    src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+    src: "/services/serviceImg.jpg",
     content: (
       <DummyContent
         data={[
           {
-            src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+            src: "/services/serviceImg.jpg",
             title: "Solar Panel Maintenance.",
           },
           {
-            src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+            src: "/services/serviceImg.jpg",
             title: "Energy Optimization Techniques.",
           },
         ]}
@@ -387,16 +387,16 @@ const data: CardData[] = [
   {
     category: "Drone Rental",
     title: "Rent State-of-the-Art Drones.",
-    src: "https://images.unsplash.com/photo-1574158622682-e40e69881006?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+    src: "/services/serviceImg.jpg",
     content: (
       <DummyContent
         data={[
           {
-            src: "https://images.unsplash.com/photo-1574158622682-e40e69881006?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+            src: "/services/serviceImg.jpg",
             title: "Flexible Rental Options.",
           },
           {
-            src: "https://images.unsplash.com/photo-1574158622682-e40e69881006?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+            src: "/services/serviceImg.jpg",
             title: "Affordable Drone Services.",
           },
         ]}
@@ -406,172 +406,172 @@ const data: CardData[] = [
   {
     category: "Event Coverage",
     title: "Capture Stunning Events from Above.",
-    src: "https://images.unsplash.com/photo-1559890469-1cb766d74042?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+    src: "/services/serviceImg.jpg",
     content: (
       <DummyContent
         data={[
           {
-            src: "https://images.unsplash.com/photo-1559890469-1cb766d74042?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+            src: "/services/serviceImg.jpg",
             title: "Wide-Angle Event Coverage.",
           },
           {
-            src: "https://images.unsplash.com/photo-1559890469-1cb766d74042?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+            src: "/services/serviceImg.jpg",
             title: "High-Resolution Media Production.",
           },
         ]}
       />
     ),
   },
-  {
-    category: "Crop Health Monitoring",
-    title: "Monitor and Optimize Crop Health.",
-    src: "https://images.unsplash.com/photo-1527515637466-6c46d3d0b6ff?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-    content: (
-      <DummyContent
-        data={[
-          {
-            src: "https://images.unsplash.com/photo-1527515637466-6c46d3d0b6ff?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-            title: "Analyze Agricultural Fields.",
-          },
-          {
-            src: "https://images.unsplash.com/photo-1527515637466-6c46d3d0b6ff?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-            title: "Improve Yield with Drone Data.",
-          },
-        ]}
-      />
-    ),
-  },
-  {
-    category: "Wind Turbine Inspection",
-    title: "Ensure Safe and Efficient Turbines.",
-    src: "https://images.unsplash.com/photo-1557428935-ea23b4a115a4?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-    content: (
-      <DummyContent
-        data={[
-          {
-            src: "https://images.unsplash.com/photo-1557428935-ea23b4a115a4?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-            title: "Precision Inspections for Maintenance.",
-          },
-          {
-            src: "https://images.unsplash.com/photo-1557428935-ea23b4a115a4?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-            title: "Optimize Energy Production.",
-          },
-        ]}
-      />
-    ),
-  },
-  {
-    category: "Construction Monitoring",
-    title: "Track Construction Progress.",
-    src: "https://images.unsplash.com/photo-1523021230191-e8c5f8e4c24c?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-    content: (
-      <DummyContent
-        data={[
-          {
-            src: "https://images.unsplash.com/photo-1523021230191-e8c5f8e4c24c?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-            title: "Daily Updates for Projects.",
-          },
-          {
-            src: "https://images.unsplash.com/photo-1523021230191-e8c5f8e4c24c?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-            title: "Detailed Aerial Insights.",
-          },
-        ]}
-      />
-    ),
-  },
-  {
-    category: "Disaster Management",
-    title: "Rapid Response with Drones.",
-    src: "https://images.unsplash.com/photo-1557247703-9f86d14b9f8d?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-    content: (
-      <DummyContent
-        data={[
-          {
-            src: "https://images.unsplash.com/photo-1557247703-9f86d14b9f8d?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-            title: "Search and Rescue Support.",
-          },
-          {
-            src: "https://images.unsplash.com/photo-1557247703-9f86d14b9f8d?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-            title: "Real-Time Assessment and Relief.",
-          },
-        ]}
-      />
-    ),
-  },
-  {
-    category: "Energy Audits",
-    title: "Comprehensive Energy Assessments.",
-    src: "https://images.unsplash.com/photo-1574169208507-84376174859f?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-    content: (
-      <DummyContent
-        data={[
-          {
-            src: "https://images.unsplash.com/photo-1574169208507-84376174859f?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-            title: "Optimize Energy Efficiency.",
-          },
-          {
-            src: "https://images.unsplash.com/photo-1574169208507-84376174859f?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-            title: "Identify Energy-Saving Opportunities.",
-          },
-        ]}
-      />
-    ),
-  },
-  {
-    category: "Pipeline Inspections",
-    title: "Monitor Pipelines Seamlessly.",
-    src: "https://images.unsplash.com/photo-1579684453940-bfd2412bcd6d?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-    content: (
-      <DummyContent
-        data={[
-          {
-            src: "https://images.unsplash.com/photo-1579684453940-bfd2412bcd6d?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-            title: "Ensure Pipeline Integrity.",
-          },
-          {
-            src: "https://images.unsplash.com/photo-1579684453940-bfd2412bcd6d?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-            title: "Detailed Maintenance Reporting.",
-          },
-        ]}
-      />
-    ),
-  },
-  {
-    category: "Survey Mapping",
-    title: "Precise and Accurate Land Surveys.",
-    src: "https://images.unsplash.com/photo-1534858370711-9fe260fea9bd?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-    content: (
-      <DummyContent
-        data={[
-          {
-            src: "https://images.unsplash.com/photo-1534858370711-9fe260fea9bd?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-            title: "Efficient Survey Solutions.",
-          },
-          {
-            src: "https://images.unsplash.com/photo-1534858370711-9fe260fea9bd?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-            title: "Reliable Land Mapping.",
-          },
-        ]}
-      />
-    ),
-  },
-  {
-    category: "Wildlife Monitoring",
-    title: "Protect and Observe Wildlife.",
-    src: "https://images.unsplash.com/photo-1517630800677-932d836ab7a7?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-    content: (
-      <DummyContent
-        data={[
-          {
-            src: "https://images.unsplash.com/photo-1517630800677-932d836ab7a7?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-            title: "Track Animal Movements.",
-          },
-          {
-            src: "https://images.unsplash.com/photo-1517630800677-932d836ab7a7?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-            title: "Promote Conservation Efforts.",
-          },
-        ]}
-      />
-    ),
-  },
+  // {
+  //   category: "Crop Health Monitoring",
+  //   title: "Monitor and Optimize Crop Health.",
+  //   src: "/services/serviceImg.jpg",
+  //   content: (
+  //     <DummyContent
+  //       data={[
+  //         {
+  //           src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+  //           title: "Analyze Agricultural Fields.",
+  //         },
+  //         {
+  //           src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+  //           title: "Improve Yield with Drone Data.",
+  //         },
+  //       ]}
+  //     />
+  //   ),
+  // },
+  // {
+  //   category: "Wind Turbine Inspection",
+  //   title: "Ensure Safe and Efficient Turbines.",
+  //   src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+  //   content: (
+  //     <DummyContent
+  //       data={[
+  //         {
+  //           src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+  //           title: "Precision Inspections for Maintenance.",
+  //         },
+  //         {
+  //           src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+  //           title: "Optimize Energy Production.",
+  //         },
+  //       ]}
+  //     />
+  //   ),
+  // },
+  // {
+  //   category: "Construction Monitoring",
+  //   title: "Track Construction Progress.",
+  //   src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+  //   content: (
+  //     <DummyContent
+  //       data={[
+  //         {
+  //           src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+  //           title: "Daily Updates for Projects.",
+  //         },
+  //         {
+  //           src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+  //           title: "Detailed Aerial Insights.",
+  //         },
+  //       ]}
+  //     />
+  //   ),
+  // },
+  // {
+  //   category: "Disaster Management",
+  //   title: "Rapid Response with Drones.",
+  //   src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+  //   content: (
+  //     <DummyContent
+  //       data={[
+  //         {
+  //           src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+  //           title: "Search and Rescue Support.",
+  //         },
+  //         {
+  //           src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+  //           title: "Real-Time Assessment and Relief.",
+  //         },
+  //       ]}
+  //     />
+  //   ),
+  // },
+  // {
+  //   category: "Energy Audits",
+  //   title: "Comprehensive Energy Assessments.",
+  //   src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+  //   content: (
+  //     <DummyContent
+  //       data={[
+  //         {
+  //           src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+  //           title: "Optimize Energy Efficiency.",
+  //         },
+  //         {
+  //           src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+  //           title: "Identify Energy-Saving Opportunities.",
+  //         },
+  //       ]}
+  //     />
+  //   ),
+  // },
+  // {
+  //   category: "Pipeline Inspections",
+  //   title: "Monitor Pipelines Seamlessly.",
+  //   src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+  //   content: (
+  //     <DummyContent
+  //       data={[
+  //         {
+  //           src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+  //           title: "Ensure Pipeline Integrity.",
+  //         },
+  //         {
+  //           src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+  //           title: "Detailed Maintenance Reporting.",
+  //         },
+  //       ]}
+  //     />
+  //   ),
+  // },
+  // {
+  //   category: "Survey Mapping",
+  //   title: "Precise and Accurate Land Surveys.",
+  //   src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+  //   content: (
+  //     <DummyContent
+  //       data={[
+  //         {
+  //           src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+  //           title: "Efficient Survey Solutions.",
+  //         },
+  //         {
+  //           src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+  //           title: "Reliable Land Mapping.",
+  //         },
+  //       ]}
+  //     />
+  //   ),
+  // },
+  // {
+  //   category: "Wildlife Monitoring",
+  //   title: "Protect and Observe Wildlife.",
+  //   src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+  //   content: (
+  //     <DummyContent
+  //       data={[
+  //         {
+  //           src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+  //           title: "Track Animal Movements.",
+  //         },
+  //         {
+  //           src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+  //           title: "Promote Conservation Efforts.",
+  //         },
+  //       ]}
+  //     />
+  //   ),
+  // },
 ];
