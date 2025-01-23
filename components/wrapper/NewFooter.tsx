@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import Image from "next/image";
 import { FaLocationArrow } from "react-icons/fa6";
@@ -181,7 +181,7 @@ function FooterSection() {
             <div className="block lg:hidden md:hidden pt-5 content-center">
               <p className="text-black mb-[12px] font-bold text-lg sm:text-xl"></p>
               <div className="flex flex-col gap-3 mb-4">
-                <div className="text-sm">
+                <div className="text-sm hidden sm:block">
                   <p className="font-semibold text-lg">
                     <MapPin className=" w-6 h-6" />
                     8/21, Parasurampur, Sarnath
@@ -211,7 +211,7 @@ function FooterSection() {
 
             <div className="relative z-10 flex flex-col sm:flex-row sm:items-center mt-4 gap-4 sm:gap-6 w-full overflow-hidden">
               <div className="flex items-center gap-4 sm:gap-6 w-full">
-                <ThemeToggle />
+                {/* <ThemeToggle /> */}
                 {socialMediaIcons.map((social) => (
                   <a
                     key={social.name}
