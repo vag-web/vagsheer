@@ -69,7 +69,7 @@ export const BentoGridItem = ({
 
   const handleCopy = () => {
     if (isClient && navigator.clipboard) {
-      navigator.clipboard.writeText("").then(() => {
+      navigator.clipboard.writeText("Vagsheer@gmail.com").then(() => {
         setCopied(true);
         setTimeout(() => setCopied(false), 2000); // Reset after 2 seconds
       });
@@ -103,15 +103,31 @@ export const BentoGridItem = ({
             />
           )}
         </div> */}
-        <div className="absolute">
+        {/* <div className="absolute">
           {img && (
             <img
               src={img}
               alt={img}
-              className={cn(imgClassName, "w-full h-full object-cover")}
+              className={cn(
+                imgClassName,
+                "w-full h-full object-cover object-center"
+              )}
+            />
+          )}
+        </div> */}
+        <div className="w-full h-full absolute">
+          {img && (
+            <img
+              src={img}
+              alt={img}
+              className={cn(
+                imgClassName,
+                "object-cover object-center w-full h-full"
+              )}
             />
           )}
         </div>
+
         <div
           className={`absolute right-0 -bottom-5 ${
             id === 5 && "w-full opacity-80"
