@@ -266,7 +266,7 @@ export const gridItems = [
   {
     id: 3,
     title: "Accurate and rich data for well-informed business decisions.",
-    description: "I constantly try to improve",
+    description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     titleClassName: "justify-center",
     img: "/d3.jpg",
@@ -285,7 +285,7 @@ export const gridItems = [
   {
     id: 5,
     title: "We help businesses cut expenses efficiently.",
-    description: "The Inside Scoop",
+    description: "",
     className: "md:col-span-3 md:row-span-2",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "",
