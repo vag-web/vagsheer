@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React from "react";
 import {
@@ -40,8 +40,8 @@ const CarousalMain = () => {
               >
                 <Card>
                   <Image
-                    src={`/carousel/${index + 1}.jpg`}
-                    alt={`Carousel Item ${index + 1}`}
+                    src={`/carousel/c${index + 1}.JPG`}
+                    alt={`Carousel Item c${index + 1}`}
                     width={400}
                     height={200}
                     className="object-cover rounded-lg"
