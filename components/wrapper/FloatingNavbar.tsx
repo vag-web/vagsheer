@@ -82,7 +82,7 @@ export const FloatingNav = ({
               <Image
                 src="/logos/logo-name-color.svg"
                 alt="Logo"
-                width={100}
+                width={150}
                 height={80}
                 quality={90}
               />

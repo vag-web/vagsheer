@@ -42,7 +42,7 @@ const ContactUs = () => {
                   </div>
                   <input
                     type="email"
-                    placeholder="Email*"
+                    placeholder="Email"
                     className="border p-2 rounded-md w-full"
                     required
                   />
@@ -67,7 +67,7 @@ const ContactUs = () => {
               </div>
 
               {/* Contact Info */}
-              <div className="space-y-6">
+              <div className="space-y-6 sm:mb-10">
                 <div>
                   <h2 className="text-lg font-semibold">Email support</h2>
                   <p className="text-gray-600">

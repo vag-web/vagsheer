@@ -265,8 +265,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "Accurate and rich data for well-informed business decisions.",
-    description: "",
+    title: "",
+    description: "Accurate and rich data for informed business decisions.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     titleClassName: "justify-center",
     img: "/d3.jpg",
