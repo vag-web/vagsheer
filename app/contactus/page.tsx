@@ -21,7 +21,7 @@ const ContactUs = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8  m-b-1">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-6 ">
               {/* Contact Form */}
               <div className="bg-gray-200 shadow-md rounded-lg p-6">
                 <h2 className="text-lg font-semibold mb-4">Message Us</h2>
@@ -67,7 +67,8 @@ const ContactUs = () => {
               </div>
 
               {/* Contact Info */}
-              <div className="space-y-6 sm:mb-10">
+
+              <div className="space-y-6 mx-2">
                 <div>
                   <h2 className="text-lg font-semibold">Email support</h2>
                   <p className="text-gray-600">
@@ -101,12 +102,14 @@ const ContactUs = () => {
                   <h2 className="text-lg font-semibold">Regd. Address</h2>
                   <p className="text-gray-600">8/21, Parasurampur, Sarnath,</p>
                   <p>Varanasi, Uttar Pradesh - 221007</p>
+                </div>
+                <div>
                   <h2 className="text-lg font-semibold">Corrs. Address</h2>
                   <p className="text-gray-600">
                     8/314A.9A, Siyaram enclave khajuri colony pandeypur,
                   </p>
                   <p>Varanasi, Uttar Pradesh - 221002</p>
-                  <p className="text-gray-600">D-1141, Indira Nagar,</p>
+                  <p className="text-gray-600 mt-1">D-1141, Indira Nagar,</p>
                   <p>Lucknow, Uttar Pradesh - 226016</p>
                 </div>
               </div>

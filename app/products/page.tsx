@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import PageWrapper from "@/components/wrapper/PageWrapper";
 import { ThreeDCardDemo } from "@/components/ThreeDCards";
@@ -20,9 +20,19 @@ const Products = () => {
             expertise lies in aerial surveys and inspections, catering to a wide
             range of industries with precision and innovation.
           </p>
-          <div className="container flex flex-col lg:flex-row items-center justify-center gap-8  w-screen">
-            <div className="w-screem sm:w-[60%]">
+          <div className="container flex flex-col lg:flex-row items-center justify-center gap-2 w-screen">
+            <div className="sm:w-[60%]">
               <ThreeDCardDemo />
+
+              <div className="text-gray-800 text-base max-w dark:text-neutral-300 mx-4">
+                <h2 className="font-semibold">What user says</h2>
+                User friendly plug and play, Lorem ipsum dolor sit, amet
+                consectetur adipisicing elit. Laboriosam quam voluptate aliquam
+                deserunt molestiae, atque magnam quibusdam magni velit,
+                inventore sint maxime sit. Hic fugiat veniam nesciunt ex eum
+                maiores!
+                <span>read more..</span>
+              </div>
             </div>
           </div>
         </div>

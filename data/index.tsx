@@ -251,7 +251,7 @@ export const gridItems = [
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:h-min-[250px]",
     titleClassName: "justify-end",
-    img: "/d4.jpg",
+    img: "/G1.jpg",
     spareImg: "",
   },
   {

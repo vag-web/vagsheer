@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import PageWrapper from "@/components/wrapper/PageWrapper";
 import { AppleCardsCarouselDemo } from "@/components/appleCarousel";
@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <PageWrapper>
       <section className="mt-20 relative flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 w-full sm:p-8">
-        <section className="py-20">
+        <div className="py-20">
           <h1 className="heading text-center">
             Our <span className="text-purple">Services</span>
           </h1>
@@ -28,7 +28,7 @@ const Services = () => {
               <AppleCardsCarouselDemo />
             </div>
           </div>
-        </section>
+        </div>
       </section>
     </PageWrapper>
   );

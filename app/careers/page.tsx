@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import Link from "next/link";
 import PageWrapper from "@/components/wrapper/PageWrapper";
@@ -7,8 +7,8 @@ import { jobList } from "@/data";
 const Careers = () => {
   return (
     <PageWrapper>
-      <main className="mt-20 mb-20 relative flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10">
-        <div className="mt-20 flex flex-col items-center justify-center py-10">
+      <section className="mt-20 relative flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 w-full sm:p-8">
+        <div className="py-20">
           {/* Main Title */}
           <div className="w-full max-w-5xl mx-auto px-4">
             <h1 className="heading text-center pb-10">
@@ -73,7 +73,7 @@ const Careers = () => {
             </div>
           </div>
         </div>
-      </main>
+      </section>
     </PageWrapper>
   );
 };

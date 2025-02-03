@@ -106,7 +106,7 @@ function FooterSection() {
                 href="/products"
                 className="text-black hover:cursor-pointer text-base sm:text-lg"
               >
-                Sparrow 01
+                Sparrow
               </Link>
             </div>
           </div>

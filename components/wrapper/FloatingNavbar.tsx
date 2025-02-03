@@ -134,7 +134,6 @@ export const FloatingNav = ({
                 width={50}
                 height={50}
                 quality={100}
-                // className="w-auto"
               />
             </Link>
 
