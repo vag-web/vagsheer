@@ -72,7 +72,7 @@ const About = () => {
               {/* Image */}
               <div className="flex justify-center mt-6">
                 <Image
-                  src="/d1.jpg"
+                  src="/d3.jpg"
                   alt="History of Company"
                   width={600}
                   height={250}
