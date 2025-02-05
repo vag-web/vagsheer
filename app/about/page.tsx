@@ -36,57 +36,79 @@ const About = () => {
         <div className="py-20">
           <div className="w-full max-w-5xl mx-auto px-4">
             {/* About Us*/}
-            <section className="">
-              <h1 className="heading text-center pb-10">
-                About <span className="text-purple">Us</span>
+            <section className="px-4 sm:px-10 lg:px-20 py-10">
+              {/* Heading */}
+              <h1 className="text-center text-2xl sm:text-3xl md:text-4xl font-bold pb-6">
+                About <span className="text-purple-500">Us</span>
               </h1>
-              <p className="text-center text-base font px-10 sm:hidden">
-                Our Vision is to empower businesses globally with innovative
-                technology and high-quality services. We aim to lead in
-                technology consulting and logistics, driving efficiency and
-                growth. Focused on customer satisfaction and societal impact, we
-                deliver tailored solutions while promoting sustainability,
-                diversity, and positive change.
-              </p>
 
-              <p className="text-center text-base font px-10 hidden sm:block">
-                Our Vision is to empower businesses globally with innovative
-                technology and high-quality services. We aim to lead in
-                technology consulting and logistics, driving efficiency and
-                growth. Focused on customer satisfaction and societal impact, we
-                deliver tailored solutions while promoting sustainability,
-                diversity, and positive change.
-              </p>
-              <Link href="">
-                <div className="pt-5 flex justify-center items-center gap-4 sm:gap-6">
-                  Read more...
-                </div>
-              </Link>
+              {/* Paragraphs */}
+              <div className="text-center text-sm sm:text-base md:text-lg leading-relaxed">
+                {/* Hidden on sm+ screens, visible only on mobile */}
+                <p className="sm:hidden px-4">
+                  Our Vision is to empower businesses globally with innovative
+                  technology and high-quality services. We aim to lead in
+                  technology consulting and logistics, driving efficiency and
+                  growth. Focused on customer satisfaction and societal impact,
+                  we deliver tailored solutions while promoting sustainability,
+                  diversity, and positive change.
+                </p>
 
-              <Image
-                src="/d1.jpg"
-                alt="history of company"
-                width={600} // Adjust based on `w-24` (24 * 4 = 96px)
-                height={250} // Adjust based on `h-24` (24 * 4 = 96px)
-                className="rounded-2 mx-auto m-4"
-              />
+                {/* Visible on sm+ screens */}
+                <p className="hidden sm:block px-4 sm:px-8 md:px-12 lg:px-20">
+                  Our Vision is to empower businesses globally with innovative
+                  technology and high-quality services. We aim to lead in
+                  technology consulting and logistics, driving efficiency and
+                  growth. Focused on customer satisfaction and societal impact,
+                  we deliver tailored solutions while promoting sustainability,
+                  diversity, and positive change.
+                  <Link
+                    href="/about"
+                    className="text-purple-500 font-semibold ml-2"
+                  >
+                    Read more...
+                  </Link>
+                </p>
+              </div>
+
+              {/* Image */}
+              <div className="flex justify-center mt-6">
+                <Image
+                  src="/d1.jpg"
+                  alt="History of Company"
+                  width={600}
+                  height={250}
+                  className="rounded-2xl mx-auto w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl"
+                />
+              </div>
             </section>
             {/* Meet Our Team*/}
-            <section className="py-20">
-              <h1 className="heading text-center pb-10">
-                Meet <span className="text-purple"> Our </span> Team
+            <section className="px-4 sm:px-10 lg:px-20 py-10">
+              {/* Heading */}
+              <h1 className="text-center text-2xl sm:text-3xl md:text-4xl font-bold pb-6">
+                Meet <span className="text-purple-500">Our</span> Team
               </h1>
-              <p className=" text-center text-base font-semibold px-10 sm:hidden">
-                Empowering industries with cutting-edge drone technologies,
-                Vagsheer specializes in aerial surveys and inspections with our
-                productX.
-              </p>
-              <p className=" text-center text-base font-semibold px-10 hidden sm:block">
-                Empowering industries with cutting-edge drone technologies,
-                Vagsheer specializes in aerial surveys and inspections. Founded
-                in 2023 at 7 UP AIR SQN NCC, BHU, we proudly operate from
-                Varanasi, Uttar Pradesh.
-              </p>
+
+              {/* Paragraphs */}
+              <div className="text-center text-sm sm:text-base md:text-lg leading-relaxed">
+                {/* Mobile-only content */}
+                <p className="sm:hidden px-4">
+                  Empowering industries with cutting-edge drone technologies,
+                  Vagsheer specializes in aerial surveys and inspections with
+                  our productX.
+                </p>
+
+                {/* Visible on sm+ screens */}
+                <p className="hidden sm:block px-4 sm:px-8 md:px-12 lg:px-20">
+                  Empowering industries with cutting-edge drone technologies,
+                  Vagsheer specializes in aerial surveys and inspections.
+                  Founded in 2023 at{" "}
+                  <span className="font-semibold">7 UP AIR SQN NCC, BHU</span>,
+                  we proudly operate from{" "}
+                  <span className="font-semibold">Varanasi, Uttar Pradesh</span>
+                  .
+                </p>
+              </div>
             </section>
             <div className="w-full max-w-4xl space-y-4 mx-auto">
               <div className="py-10 flex flex-wrap justify-center items-center gap-4 sm:gap-6">
@@ -121,14 +143,14 @@ const About = () => {
               </div>
 
               {/* Mission and Vision Section */}
-              <div className="flex flex-col md:flex-row gap-6 p-4 md:p-6 lg:p-8 max-w-screen-lg mx-auto">
+              <div className="flex flex-col md:flex-row gap-6 px-4 sm:px-8 md:px-12 lg:px-16 py-10 max-w-screen-lg mx-auto">
                 {/* Mission Section */}
-                <section className="bg-gray-100 dark:bg-gray-800 bg-opacity-80 dark:bg-opacity-60 py-8 md:py-10 lg:py-12 rounded-lg w-full transition duration-300">
+                <section className="bg-gray-100 dark:bg-gray-800 bg-opacity-80 dark:bg-opacity-60 py-6 sm:py-8 md:py-10 lg:py-12 rounded-xl w-full transition duration-300">
                   <div className="text-center px-4 sm:px-6 md:px-8 lg:px-10">
-                    <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4 text-gray-900 dark:text-gray-100">
+                    <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-3 sm:mb-4 text-gray-900 dark:text-gray-100">
                       Our Mission
                     </h2>
-                    <p className="text-gray-600 dark:text-gray-300 text-sm md:text-base lg:text-lg">
+                    <p className="text-gray-600 dark:text-gray-300 text-sm sm:text-base md:text-lg leading-relaxed">
                       Our mission is to deliver precise, expert drone services
                       with cutting-edge technology and a customer-first
                       approach. We aim to build trust through tailored
@@ -137,14 +159,15 @@ const About = () => {
                     </p>
                   </div>
                 </section>
+
                 {/* Vision Section */}
-                <section className="bg-white dark:bg-gray-700 bg-opacity-80 dark:bg-opacity-60 py-8 md:py-10 lg:py-12 rounded-lg w-full transition duration-300">
+                <section className="bg-white dark:bg-gray-700 bg-opacity-80 dark:bg-opacity-60 py-6 sm:py-8 md:py-10 lg:py-12 rounded-xl w-full transition duration-300">
                   <div className="text-center px-4 sm:px-6 md:px-8 lg:px-10">
-                    <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4 text-gray-900 dark:text-gray-100">
+                    <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-3 sm:mb-4 text-gray-900 dark:text-gray-100">
                       Our Vision
                     </h2>
-                    <p className="text-gray-600 dark:text-gray-300 text-sm md:text-base lg:text-lg">
-                      Our Vision is to empower businesses globally with
+                    <p className="text-gray-600 dark:text-gray-300 text-sm sm:text-base md:text-lg leading-relaxed">
+                      Our vision is to empower businesses globally with
                       innovative technology and high-quality services. We aim to
                       lead in technology consulting and logistics, driving
                       efficiency and growth. Focused on customer satisfaction
