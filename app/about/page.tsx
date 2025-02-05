@@ -34,18 +34,17 @@ const About = () => {
     <PageWrapper>
       <section className="mt-20 relative flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 w-full sm:p-8">
         <div className="py-20">
-          <div className="w-full max-w-5xl mx-auto px-4">
+          <div className="w-full max-w-5xl mx-auto ">
             {/* About Us*/}
-            <section className="px-4 sm:px-10 lg:px-20 py-10">
+            <section className="px-4 sm:px-10 lg:px-20 ">
               {/* Heading */}
-              <h1 className="text-center text-2xl sm:text-3xl md:text-4xl font-bold pb-6">
-                About <span className="text-purple-500">Us</span>
+              <h1 className="heading text-center relative mb-4">
+                About <span className="text-purple">Us</span>
               </h1>
-
               {/* Paragraphs */}
               <div className="text-center text-sm sm:text-base md:text-lg leading-relaxed">
                 {/* Hidden on sm+ screens, visible only on mobile */}
-                <p className="sm:hidden px-4">
+                <p className="sm:hidden px-10">
                   Our Vision is to empower businesses globally with innovative
                   technology and high-quality services. We aim to lead in
                   technology consulting and logistics, driving efficiency and
@@ -70,7 +69,6 @@ const About = () => {
                   </Link>
                 </p>
               </div>
-
               {/* Image */}
               <div className="flex justify-center mt-6">
                 <Image
@@ -83,12 +81,11 @@ const About = () => {
               </div>
             </section>
             {/* Meet Our Team*/}
-            <section className="px-4 sm:px-10 lg:px-20 py-10">
+            <section className="px-4 sm:px-10 lg:px-20 py-20">
               {/* Heading */}
-              <h1 className="text-center text-2xl sm:text-3xl md:text-4xl font-bold pb-6">
-                Meet <span className="text-purple-500">Our</span> Team
+              <h1 className="heading text-center relative mb-4">
+                Meet <span className="text-purple">Our </span>Team
               </h1>
-
               {/* Paragraphs */}
               <div className="text-center text-sm sm:text-base md:text-lg leading-relaxed">
                 {/* Mobile-only content */}
@@ -170,9 +167,9 @@ const About = () => {
                       Our vision is to empower businesses globally with
                       innovative technology and high-quality services. We aim to
                       lead in technology consulting and logistics, driving
-                      efficiency and growth. Focused on customer satisfaction
-                      and societal impact, we deliver tailored solutions while
-                      promoting sustainability, diversity, and positive change.
+                      efficiency and growth. Focused on customer satisfaction.
+                      we deliver tailored solutions while promoting
+                      sustainability, diversity, and positive change.
                     </p>
                   </div>
                 </section>

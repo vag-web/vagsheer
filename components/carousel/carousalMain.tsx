@@ -33,7 +33,7 @@ const CarousalMain = () => {
           className="w-full"
         >
           <CarouselContent>
-            {Array.from({ length: 13 }).map((_, index) => (
+            {Array.from({ length: 12 }).map((_, index) => (
               <CarouselItem
                 key={index}
                 className="md:basis-1/2 lg:basis-1/3 sm:basis-full"
