@@ -32,35 +32,31 @@ const Mentors = [
 const About = () => {
   return (
     <PageWrapper>
-      <section className="mt-20 relative flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 w-full sm:p-8">
+      <section className="mt-20 relative flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-7 w-full sm:p-8">
         <div className="py-20">
           <div className="w-full max-w-5xl mx-auto ">
             {/* About Us*/}
-            <section className="px-4 sm:px-10 lg:px-20 ">
+            <section className="px-4 sm:px-7 lg:px-20 ">
               {/* Heading */}
               <h1 className="heading text-center relative mb-4">
                 About <span className="text-purple">Us</span>
               </h1>
               {/* Paragraphs */}
               <div className="text-center text-sm sm:text-base md:text-lg leading-relaxed">
-                {/* Hidden on sm+ screens, visible only on mobile */}
-                <p className="sm:hidden px-10">
-                  Our Vision is to empower businesses globally with innovative
-                  technology and high-quality services. We aim to lead in
-                  technology consulting and logistics, driving efficiency and
-                  growth. Focused on customer satisfaction and societal impact,
-                  we deliver tailored solutions while promoting sustainability,
-                  diversity, and positive change.
-                </p>
-
                 {/* Visible on sm+ screens */}
-                <p className="hidden sm:block px-4 sm:px-8 md:px-12 lg:px-20">
-                  Our Vision is to empower businesses globally with innovative
-                  technology and high-quality services. We aim to lead in
-                  technology consulting and logistics, driving efficiency and
-                  growth. Focused on customer satisfaction and societal impact,
-                  we deliver tailored solutions while promoting sustainability,
-                  diversity, and positive change.
+                <p className="mt-10 text-center text-base ">
+                  We are a leading company in the UAV industry committed to
+                  delivering cutting-edge drone solutions to our clients,
+                  building around Aerial survey and inspection company.
+                  <p className="hidden sm:block">
+                    <br />
+                    <br />
+                    Vagsheer is a startup that originated from 7 UP AIR SQN NCC,
+                    Banaras Hindu University in the year 2023. We are based in
+                    Varanasi, Uttar Pradesh. Focused on customer satisfaction
+                    and societal impact, we deliver tailored solutions while
+                    promoting sustainability, diversity, and positive change.
+                  </p>
                   <Link
                     href="/about"
                     className="text-purple-500 font-semibold ml-2"
@@ -81,7 +77,7 @@ const About = () => {
               </div>
             </section>
             {/* Meet Our Team*/}
-            <section className="px-4 sm:px-10 lg:px-20 py-20">
+            <section className="px-4 sm:px-5 lg:px-20 pt-20">
               {/* Heading */}
               <h1 className="heading text-center relative mb-4">
                 Meet <span className="text-purple">Our </span>Team
@@ -89,10 +85,10 @@ const About = () => {
               {/* Paragraphs */}
               <div className="text-center text-sm sm:text-base md:text-lg leading-relaxed">
                 {/* Mobile-only content */}
-                <p className="sm:hidden px-4">
+                <p className="sm:hidden ">
                   Empowering industries with cutting-edge drone technologies,
                   Vagsheer specializes in aerial surveys and inspections with
-                  our productX.
+                  our products.
                 </p>
 
                 {/* Visible on sm+ screens */}
