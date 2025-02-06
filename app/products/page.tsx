@@ -26,18 +26,15 @@ const Products = () => {
               <ThreeDCardDemo />
 
               <div className="text-gray-800 text-base max-w dark:text-neutral-300 mx-4">
-                <h2 className="font-semibold">What user says</h2>
-                User friendly plug and play, Lorem ipsum dolor sit, amet
-                consectetur adipisicing elit. Laboriosam quam voluptate aliquam
-                deserunt molestiae, atque magnam quibusdam magni velit,
-                inventore sint maxime sit. Hic fugiat veniam nesciunt ex eum
-                maiores!
-                <Link
-                  href="/about"
-                  className="text-purple-500 font-semibold ml-2"
-                >
-                  Read more...
-                </Link>
+                <h2 className="text-lg font-bold text-gray-800 tracking-wide">
+                  What Our Users Say
+                </h2>
+
+                <p className="mt-2">
+                  User-friendly and plug-and-play, designed for convenience and
+                  efficiency, this solution offers seamless integration while
+                  ensuring reliability and top-notch performance.
+                </p>
               </div>
             </div>
           </div>

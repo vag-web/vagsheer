@@ -181,7 +181,7 @@ export function ThreeDCardDemo() {
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
-            src="/carousel/c10.JPG"
+            src="/carousel/c7.jpg"
             height="1000"
             width="1000"
             className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
@@ -210,7 +210,7 @@ export function ThreeDCardDemo() {
             </ul>
             <div className="flex items-center mt-6">
               <Link href="" className="">
-                <div className="">
+                <div className="shadow-md">
                   <Button4>Order Now</Button4>
                 </div>
               </Link>
