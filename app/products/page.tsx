@@ -2,6 +2,7 @@
 import React from "react";
 import PageWrapper from "@/components/wrapper/PageWrapper";
 import { ThreeDCardDemo } from "@/components/ThreeDCards";
+import Link from "next/link";
 const Products = () => {
   return (
     <PageWrapper>
@@ -31,7 +32,12 @@ const Products = () => {
                 deserunt molestiae, atque magnam quibusdam magni velit,
                 inventore sint maxime sit. Hic fugiat veniam nesciunt ex eum
                 maiores!
-                <span>read more..</span>
+                <Link
+                  href="/about"
+                  className="text-purple-500 font-semibold ml-2"
+                >
+                  Read more...
+                </Link>
               </div>
             </div>
           </div>

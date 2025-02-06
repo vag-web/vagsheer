@@ -6,6 +6,168 @@ import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Link from "next/link";
 import Button4 from "@/components/ui/NavButton";
 import { Phone } from "lucide-react";
+const droneFeatures = [
+  {
+    title: "Maximum flight speed: 12 m/s",
+    color: "text-blue-500",
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="h-6 w-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M13 10V3L4 14h7v7l9-11h-7z"
+        />
+      </svg>
+    ),
+  },
+  {
+    title: "Vertical takeoff speed: 6 m/s",
+    color: "text-green-500",
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="h-6 w-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M8 7V3m0 4h8M8 21v-4m0 4h8"
+        />
+      </svg>
+    ),
+  },
+  {
+    title: "Flight time: Over 53 minutes",
+    color: "text-yellow-500",
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="h-6 w-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M12 8v4l3 3m6 0a9 9 0 11-18 0 9 9 0 0118 0z"
+        />
+      </svg>
+    ),
+  },
+  {
+    title: "Coverage area in a single flight: Over 1 sq km",
+    color: "text-orange-500",
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="h-6 w-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M3 10h11M9 21V3m6 6l6 6m-6 0l6-6"
+        />
+      </svg>
+    ),
+  },
+  {
+    title: "Aircraft takeoff weight: 2.2 kg",
+    color: "text-red-500",
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="h-6 w-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M3 10h18M3 14h18M5 6l2 2m10 10l2 2m-2-12l2-2M5 18l2-2"
+        />
+      </svg>
+    ),
+  },
+  {
+    title: "Wind resistance: Up to 8 m/s",
+    color: "text-cyan-500",
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="h-6 w-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M9.75 11a3.25 3.25 0 10-6.5 0 3.25 3.25 0 006.5 0zM9.75 11H21"
+        />
+      </svg>
+    ),
+  },
+  {
+    title: "Connectivity: Telemetry, 4G, and 5G supported",
+    color: "text-purple-500",
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="h-6 w-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M12 4v16m-4-4h8m-8-4h8m-8-4h8m-8-4h8"
+        />
+      </svg>
+    ),
+  },
+  {
+    title: "Capabilities: Mapping, surveillance, and inspections",
+    color: "text-teal-500",
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="h-6 w-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M12 3v10m6 4h-6m6-4h-6m6-4H6m0 4h6m-6-4H6"
+        />
+      </svg>
+    ),
+  },
+];
 
 export function ThreeDCardDemo() {
   return (
@@ -26,17 +188,6 @@ export function ThreeDCardDemo() {
             alt="thumbnail"
           />
         </CardItem>
-        <CardItem
-          as="p"
-          translateZ="60"
-          className="text-gray-800 text-sm max-w mt-3 dark:text-neutral-300"
-        >
-          User friendly plug and play, Lorem ipsum dolor sit, amet consectetur
-          adipisicing elit. Laboriosam quam voluptate aliquam deserunt
-          molestiae, atque magnam quibusdam magni velit, inventore sint maxime
-          sit. Hic fugiat veniam nesciunt ex eum maiores!
-          <span>read more..</span>
-        </CardItem>
 
         <div className="flex justify-between items-center mt-6">
           <CardItem
@@ -46,15 +197,16 @@ export function ThreeDCardDemo() {
             target="__blank"
             className="px-4 py-2 rounded-xl text-xs font-semibold dark:text-white sm:text-sm"
           >
-            <ul className="list-disc pl-4 space-y-2">
-              <li>Maximum flight speed: 12 m/s</li>
-              <li>Vertical takeoff speed: 6 m/s</li>
-              <li>Flight time: Over 53 minutes</li>
-              <li>Coverage area in a single flight: Over 1 sq km</li>
-              <li>Aircraft takeoff weight: 2.2 kg</li>
-              <li>Wind resistance: Upto 8 m/s</li>
-              <li>Connectivity:Telemetry, 4G and 5G supported</li>
-              <li>Capabilities: Mapping, surveillance, and inspections</li>
+            <ul className="space-y-4">
+              {droneFeatures.map((feature, index) => (
+                <li
+                  key={index}
+                  className="flex items-center space-x-3 bg-gray-100 p-4 rounded-md shadow-md"
+                >
+                  <span className={feature.color}>{feature.icon}</span>
+                  <span>{feature.title}</span>
+                </li>
+              ))}
             </ul>
             <div className="flex items-center mt-6">
               <Link href="" className="">
