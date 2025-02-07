@@ -201,14 +201,16 @@ export const Card = ({
         onClick={() => setOpen(true)}
       >
         <div className="absolute top-0 inset-x-0 bg-gradient-to-b from-black/50 via-transparent to-transparent z-30" />
-        <div className="relative z-40 p-8 pb-5 mt-auto">
+
+        <div className="relative z-40 p-4 sm:p-6 md:p-8 pb-3 sm:pb-5 mt-auto top-0 left-0 w-full bg-transparent backdrop-blur-md text-white">
           <motion.p className="text-white text-sm md:text-base font-medium">
             {card.category}
           </motion.p>
-          <motion.p className="text-white text-xl md:text-3xl font-semibold mt-2">
+          <motion.p className="text-white text-lg sm:text-xl md:text-3xl font-semibold mt-2">
             {card.title}
           </motion.p>
         </div>
+
         <BlurImage
           src={card.src}
           alt={card.title}
