@@ -55,47 +55,8 @@ interface CardData {
 
 const data: CardData[] = [
   {
-    category: "Village Mapping",
-    title: "Monitoring Village Infrastructure.",
-    src: "/services/villService.jpeg",
-
-    content: (
-      <DummyContent
-        data={[
-          {
-            src: "/services/villService.jpeg",
-            title: "Village Development Mapping.",
-          },
-          {
-            src: "/services/villService.jpeg",
-            title: "Efficient Mapping of Rural Areas.",
-          },
-        ]}
-      />
-    ),
-  },
-  {
-    category: "Smart City",
-    title: "Developing Smart City Infrastructure.",
-    src: "/services/smartCity.jpeg",
-    content: (
-      <DummyContent
-        data={[
-          {
-            src: "/services/smartCity.jpeg",
-            title: "Smart Infrastructure Design.",
-          },
-          {
-            src: "/services/smartCity.jpeg",
-            title: "Urban Smart Systems.",
-          },
-        ]}
-      />
-    ),
-  },
-  {
     category: "Aerial Surveys",
-    title: "High-altitude Aerial Surveys.",
+    title: "High-resolution aerial data collection.",
     src: "/services/highAlti.jpeg",
     content: (
       <DummyContent
@@ -114,7 +75,7 @@ const data: CardData[] = [
   },
   {
     category: "Mapping",
-    title: "Precision Mapping for Projects.",
+    title: "Accurate geospatial mapping solutions.",
     src: "/services/mapping.jpeg",
     content: (
       <DummyContent
@@ -151,9 +112,9 @@ const data: CardData[] = [
     ),
   },
   {
-    category: "Visual Inspection",
-    title: "Advanced Visual Inspections.",
-    src: "/services/serviceImg.jpg",
+    category: "Visual and Thermal Inspection",
+    title: "Detecting structural and thermal issues.",
+    src: "/services/thermal.jpg",
     content: (
       <DummyContent
         data={[
@@ -164,25 +125,6 @@ const data: CardData[] = [
           {
             src: "/services/serviceImg.jpg",
             title: "Enhanced Inspection Techniques.",
-          },
-        ]}
-      />
-    ),
-  },
-  {
-    category: "Thermal Inspection",
-    title: "Thermal Imaging for Detection.",
-    src: "/services/serviceImg.jpg",
-    content: (
-      <DummyContent
-        data={[
-          {
-            src: "/services/serviceImg.jpg",
-            title: "Thermal Data Visualization.",
-          },
-          {
-            src: "/services/serviceImg.jpg",
-            title: "Heat Signatures Analysis.",
           },
         ]}
       />
@@ -208,6 +150,273 @@ const data: CardData[] = [
     ),
   },
   {
+    category: "Transmission Lines",
+    title: "Identifying faults in power lines.",
+    src: "/services/transmissionLine.jpg",
+    content: (
+      <DummyContent
+        data={[
+          {
+            src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+            title: "Optimize Energy Efficiency.",
+          },
+          {
+            src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+            title: "Identify Energy-Saving Opportunities.",
+          },
+        ]}
+      />
+    ),
+  },
+  {
+    category: "Railway Lines",
+    title: "Monitoring tracks for safety compliance.",
+    src: "/services/track.jpg",
+    content: (
+      <DummyContent
+        data={[
+          {
+            src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+            title: "Optimize Energy Efficiency.",
+          },
+          {
+            src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
+            title: "Identify Energy-Saving Opportunities.",
+          },
+        ]}
+      />
+    ),
+  },
+  {
+    category: "Wind Turbine Inspection",
+    title: "Assessing turbine blade conditions.",
+    src: "/services/windTurbine.jpg",
+    content: (
+      <DummyContent
+        data={[
+          {
+            src: "",
+            title: "Precision Inspections for Maintenance.",
+          },
+          {
+            src: "",
+            title: "Optimize Energy Production.",
+          },
+        ]}
+      />
+    ),
+  },
+  {
+    category: "Factories Inspection",
+    title: "Industrial site inspection solutions.",
+    src: "/services/industries.jpg",
+    content: (
+      <DummyContent
+        data={[
+          {
+            src: "",
+            title: "Precision Inspections for Maintenance.",
+          },
+          {
+            src: "",
+            title: "Optimize Energy Production.",
+          },
+        ]}
+      />
+    ),
+  },
+  {
+    category: "Telecom Towers",
+    title: "Ensuring tower stability and performance.",
+    src: "/services/tower.jpg",
+    content: (
+      <DummyContent
+        data={[
+          {
+            src: "",
+            title: "Precision Inspections for Maintenance.",
+          },
+          {
+            src: "",
+            title: "Optimize Energy Production.",
+          },
+        ]}
+      />
+    ),
+  },
+  {
+    category: "Dams",
+    title: " Detecting leaks and structural integrity.",
+    src: "/services/dams.jpg",
+    content: (
+      <DummyContent
+        data={[
+          {
+            src: "",
+            title: "Precision Inspections for Maintenance.",
+          },
+          {
+            src: "",
+            title: "Optimize Energy Production.",
+          },
+        ]}
+      />
+    ),
+  },
+  {
+    category: "Hydropower Projects",
+    title: "Evaluating hydro facility performance.",
+    src: "/services/hydro.jpg",
+    content: (
+      <DummyContent
+        data={[
+          {
+            src: "",
+            title: "Precision Inspections for Maintenance.",
+          },
+          {
+            src: "",
+            title: "Optimize Energy Production.",
+          },
+        ]}
+      />
+    ),
+  },
+  {
+    category: "Mines",
+    title: "Volumetric analysis and safety checks.",
+    src: "/services/mines.jpg",
+    content: (
+      <DummyContent
+        data={[
+          {
+            src: "",
+            title: "Precision Inspections for Maintenance.",
+          },
+          {
+            src: "",
+            title: "Optimize Energy Production.",
+          },
+        ]}
+      />
+    ),
+  },
+  {
+    category: "Rivers",
+    title: "Monitoring water flow and erosion.",
+    src: "/services/river.jpg",
+    content: (
+      <DummyContent
+        data={[
+          {
+            src: "",
+            title: "Precision Inspections for Maintenance.",
+          },
+          {
+            src: "",
+            title: "Optimize Energy Production.",
+          },
+        ]}
+      />
+    ),
+  },
+  {
+    category: "Urban and Rural Planing",
+    title: "Data-driven infrastructure planning solutions.",
+    src: "/services/villService.jpeg",
+
+    content: (
+      <DummyContent
+        data={[
+          {
+            src: "/services/villService.jpeg",
+            title: "Village Development Mapping.",
+          },
+          {
+            src: "/services/villService.jpeg",
+            title: "Efficient Mapping of Rural Areas.",
+          },
+        ]}
+      />
+    ),
+  },
+  {
+    category: "Watersheds",
+    title: "Analyzing conservation and water management.",
+    src: "/services/water.jpg",
+    content: (
+      <DummyContent
+        data={[
+          {
+            src: "",
+            title: "Precision Inspections for Maintenance.",
+          },
+          {
+            src: "",
+            title: "Optimize Energy Production.",
+          },
+        ]}
+      />
+    ),
+  },
+  {
+    category: "Agriculture",
+    title: "Optimizing farming with aerial monitoring.",
+    src: "/services/agri.jpg",
+    content: (
+      <DummyContent
+        data={[
+          {
+            src: "",
+            title: "Precision Inspections for Maintenance.",
+          },
+          {
+            src: "",
+            title: "Optimize Energy Production.",
+          },
+        ]}
+      />
+    ),
+  },
+  {
+    category: "Pipelines",
+    title: "Detecting leaks and pipeline wear.",
+    src: "/services/pipeline.jpg",
+    content: (
+      <DummyContent
+        data={[
+          {
+            src: "",
+            title: "Precision Inspections for Maintenance.",
+          },
+          {
+            src: "",
+            title: "Optimize Energy Production.",
+          },
+        ]}
+      />
+    ),
+  },
+  {
+    category: "Ports",
+    title: "Overseeing vessel movement and infrastructure.",
+    src: "/services/port.jpg",
+    content: (
+      <DummyContent
+        data={[
+          {
+            src: "",
+            title: "Precision Inspections for Maintenance.",
+          },
+          {
+            src: "",
+            title: "Optimize Energy Production.",
+          },
+        ]}
+      />
+    ),
+  },
+  {
     category: "Drone Rental",
     title: "Rent State-of-the-Art Drones.",
     src: "/services/rentDrone.jpg",
@@ -226,175 +435,4 @@ const data: CardData[] = [
       />
     ),
   },
-  {
-    category: "Event Coverage",
-    title: "Capture Stunning Events from Above.",
-    src: "/services/serviceImg.jpg",
-    content: (
-      <DummyContent
-        data={[
-          {
-            src: "/services/serviceImg.jpg",
-            title: "Wide-Angle Event Coverage.",
-          },
-          {
-            src: "/services/serviceImg.jpg",
-            title: "High-Resolution Media Production.",
-          },
-        ]}
-      />
-    ),
-  },
-  {
-    category: "Crop Health Monitoring",
-    title: "Monitor and Optimize Crop Health.",
-    src: "/services/cropHealth.jpeg",
-    content: (
-      <DummyContent
-        data={[
-          {
-            src: "",
-            title: "Analyze Agricultural Fields.",
-          },
-          {
-            src: "",
-            title: "Improve Yield with Drone Data.",
-          },
-        ]}
-      />
-    ),
-  },
-  {
-    category: "Wind Turbine Inspection",
-    title: "Ensure Safe and Efficient Turbines.",
-    src: "/services/windTurbine.jpg",
-    content: (
-      <DummyContent
-        data={[
-          {
-            src: "",
-            title: "Precision Inspections for Maintenance.",
-          },
-          {
-            src: "",
-            title: "Optimize Energy Production.",
-          },
-        ]}
-      />
-    ),
-  },
-  {
-    category: "Construction Monitoring",
-    title: "Track Construction Progress.",
-    src: "/services/construction.jpg",
-    content: (
-      <DummyContent
-        data={[
-          {
-            src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-            title: "Daily Updates for Projects.",
-          },
-          {
-            src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-            title: "Detailed Aerial Insights.",
-          },
-        ]}
-      />
-    ),
-  },
-  // {
-  //   category: "Disaster Management",
-  //   title: "Rapid Response with Drones.",
-  //   src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-  //   content: (
-  //     <DummyContent
-  //       data={[
-  //         {
-  //           src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-  //           title: "Search and Rescue Support.",
-  //         },
-  //         {
-  //           src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-  //           title: "Real-Time Assessment and Relief.",
-  //         },
-  //       ]}
-  //     />
-  //   ),
-  // },
-  // {
-  //   category: "Energy Audits",
-  //   title: "Comprehensive Energy Assessments.",
-  //   src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-  //   content: (
-  //     <DummyContent
-  //       data={[
-  //         {
-  //           src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-  //           title: "Optimize Energy Efficiency.",
-  //         },
-  //         {
-  //           src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-  //           title: "Identify Energy-Saving Opportunities.",
-  //         },
-  //       ]}
-  //     />
-  //   ),
-  // },
-  // {
-  //   category: "Pipeline Inspections",
-  //   title: "Monitor Pipelines Seamlessly.",
-  //   src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-  //   content: (
-  //     <DummyContent
-  //       data={[
-  //         {
-  //           src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-  //           title: "Ensure Pipeline Integrity.",
-  //         },
-  //         {
-  //           src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-  //           title: "Detailed Maintenance Reporting.",
-  //         },
-  //       ]}
-  //     />
-  //   ),
-  // },
-  // {
-  //   category: "Survey Mapping",
-  //   title: "Precise and Accurate Land Surveys.",
-  //   src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-  //   content: (
-  //     <DummyContent
-  //       data={[
-  //         {
-  //           src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-  //           title: "Efficient Survey Solutions.",
-  //         },
-  //         {
-  //           src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-  //           title: "Reliable Land Mapping.",
-  //         },
-  //       ]}
-  //     />
-  //   ),
-  // },
-  // {
-  //   category: "Wildlife Monitoring",
-  //   title: "Protect and Observe Wildlife.",
-  //   src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-  //   content: (
-  //     <DummyContent
-  //       data={[
-  //         {
-  //           src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-  //           title: "Track Animal Movements.",
-  //         },
-  //         {
-  //           src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3",
-  //           title: "Promote Conservation Efforts.",
-  //         },
-  //       ]}
-  //     />
-  //   ),
-  // },
 ];
