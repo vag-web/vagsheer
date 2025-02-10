@@ -129,10 +129,12 @@ export const BentoGridItem = ({
         </div>
 
         <div
-          className={`absolute right-0 -bottom-5 ${
+          className={`absolute 
+            
+            ${id === 3 && "-bottom-10"} right-0  ${
             id === 5 &&
-            "w-full opacity-100 object-cover object-center h-full -bottom-0"
-          }`}
+            "w-full opacity-100 object-cover object-center h-full -bottom-0 "
+          } `}
         >
           {spareImg && (
             <img
