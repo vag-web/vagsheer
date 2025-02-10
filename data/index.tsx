@@ -288,7 +288,7 @@ export const gridItems = [
     description: "",
     className: "md:col-span-3 md:row-span-2",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "",
+    img: "/white-bg.jpg",
     spareImg: "/d5.gif",
   },
   {
