@@ -136,7 +136,7 @@ const ContactUs = () => {
                     </p>
                     <a href="#" className="text-indigo-600">
                       <a
-                        href="https://wa.me/9794877798"
+                        href="https://wa.me/+919794877798"
                         className=""
                         target="_blank"
                         rel="noopener noreferrer"
