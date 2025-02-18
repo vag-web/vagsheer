@@ -21,19 +21,19 @@ export const socialMediaIcons: SocialMedia[] = [
     id: 1,
     name: "Instagram",
     icon: Instagram,
-    url: "https://www.instagram.com",
+    url: "https://www.instagram.com/vagsheer.in/?igshid=MzRlODBiNWFlZA%3D%3D",
   },
   {
     id: 2,
     name: "Facebook",
     icon: Facebook,
-    url: "https://www.facebook.com",
+    url: "https://www.google.com/url?q=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100091541539870%26mibextid%3DD4KYlr&sa=D&sntz=1&usg=AOvVaw2mkOoLfzPhQrBmpyDepqwg",
   },
   {
     id: 3,
     name: "LinkedIn",
     icon: Linkedin,
-    url: "https://www.linkedin.com",
+    url: "https://www.linkedin.com/company/vagsheer/",
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ export const socialMediaIcons: SocialMedia[] = [
     id: 5,
     name: "Twitter",
     icon: Twitter,
-    url: "https://www.twitter.com",
+    url: "https://www.google.com/url?q=https%3A%2F%2Ftwitter.com%2Fvagsheer%3Ft%3DI8ESj8TAHvXIj9Xz-GiqBg%26s%3D09&sa=D&sntz=1&usg=AOvVaw1iFDeou3cAHHj-KnrHOLaX",
   },
 ];
 
@@ -116,19 +116,19 @@ function FooterSection() {
             </p>
             <div className="flex flex-col gap-3">
               <Link
-                href="/help-center"
+                href="/contactus"
                 className="text-black hover:cursor-pointer text-base sm:text-lg"
               >
                 Help Center
               </Link>
               <Link
-                href="/faqs"
+                href="/contactus"
                 className="text-black hover:cursor-pointer text-base sm:text-lg"
               >
                 FAQs
               </Link>
               <Link
-                href="/live-chat"
+                href="/contactus"
                 className="text-black hover:cursor-pointer text-base sm:text-lg"
               >
                 Live Chat
@@ -139,15 +139,17 @@ function FooterSection() {
             <p className="text-black mb-[12px] font-bold text-lg sm:text-xl">
               Contact Us
             </p>
-            <div className="flex flex-col gap-3 mb-4">
-              <MapPin className=" w-6 h-6" />
-              <div className="text-sm">
-                <p className="font-semibold text-lg">
-                  8/21, Parasurampur, Sarnath
-                </p>
-                <p>Varanasi, Uttar Pradesh, 221007</p>
+            <Link href="https://maps.app.goo.gl/5DHp1Yx15YF9QRCC8">
+              <div className="flex flex-col gap-3 mb-4">
+                <MapPin className=" w-6 h-6" />
+                <div className="text-sm">
+                  <p className="font-semibold text-lg">
+                    8/21, Parasurampur, Sarnath
+                  </p>
+                  <p>Varanasi, Uttar Pradesh, 221007</p>
+                </div>
               </div>
-            </div>
+            </Link>
             <div className="flex items-center space-x-4 mb-4">
               <Phone className=" w-6 h-6" />
               <div className="text-sm">
@@ -158,12 +160,12 @@ function FooterSection() {
             <div className="flex items-center space-x-4 mb-4">
               <Mail className=" w-6 h-6" />
               <div className="text-sm">
-                <a
+                <Link
                   href="mailto:info@vagsheer.com"
                   className=" hover:underline font-semibold"
                 >
                   info@vagsheer.com
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -179,15 +181,16 @@ function FooterSection() {
               />
             </Link>
             <div className="block lg:hidden md:hidden pt-5 content-center">
-              <p className="text-black mb-[12px] font-bold text-lg sm:text-xl"></p>
               <div className="flex flex-col gap-3 mb-4">
-                <div className="text-sm hidden sm:block">
-                  <p className="font-semibold text-lg">
-                    <MapPin className=" w-6 h-6" />
-                    8/21, Parasurampur, Sarnath
-                  </p>
-                  <p>Varanasi, Uttar Pradesh, 221007</p>
-                </div>
+                <Link href="https://maps.app.goo.gl/5DHp1Yx15YF9QRCC8">
+                  <div className="text-sm hidden sm:block">
+                    <p className="font-semibold text-lg">
+                      <MapPin className=" w-6 h-6" />
+                      8/21, Parasurampur, Sarnath
+                    </p>
+                    <p>Varanasi, Uttar Pradesh, 221007</p>
+                  </div>
+                </Link>
               </div>
               <div className="flex  space-x-4 mb-4">
                 <Phone className=" w-6 h-6" />
@@ -199,12 +202,12 @@ function FooterSection() {
               <div className="flex items-center space-x-4 mb-4">
                 <Mail className=" w-6 h-6" />
                 <div className="text-sm">
-                  <a
+                  <Link
                     href="mailto:info@vagsheer.com"
                     className=" hover:underline font-semibold"
                   >
                     info@vagsheer.com
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -213,7 +216,7 @@ function FooterSection() {
               <div className="flex items-center gap-4 sm:gap-6 w-full">
                 {/* <ThemeToggle /> */}
                 {socialMediaIcons.map((social) => (
-                  <a
+                  <Link
                     key={social.name}
                     href={social.url}
                     target="_blank"
@@ -221,7 +224,7 @@ function FooterSection() {
                     className=""
                   >
                     <social.icon className="w-6 h-6" aria-label={social.name} />
-                  </a>
+                  </Link>
                 ))}
               </div>
               <p className="text-sm sm:text-base font-normal">
@@ -230,7 +233,7 @@ function FooterSection() {
             </div>
           </div>
 
-          {/* Orange Shape */}
+          {/* Logo Shape */}
           <div
             className="-z-10
     absolute bottom-[199px] right-[200px] transform translate-x-1/2 translate-y-1/2 opacity-40 
