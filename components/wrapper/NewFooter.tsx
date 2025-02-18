@@ -175,7 +175,7 @@ function FooterSection() {
             {/* Contact Button */}
             <Link href="/contactus" className="w-full sm:w-auto">
               <MagicButton
-                title="Conenct with us"
+                title="Connect with us"
                 icon={<FaLocationArrow />}
                 position="right"
               />
@@ -192,14 +192,14 @@ function FooterSection() {
                   </div>
                 </Link>
               </div>
-              <div className="flex  space-x-4 mb-4">
-                <Phone className=" w-6 h-6" />
+              <div className="flex space-x-4 mb-4 sm:items-center">
+                <Phone className="w-6 h-6" />
                 <div className="text-sm">
-                  <p className="font-semibold">+91 9794877798</p>
-                  <p className="font-semibold">+91 8419874317</p>
+                  <a className="font-semibold">+91 9794877798, </a>
+                  <a className="font-semibold">+91 8419874317</a>
                 </div>
               </div>
-              <div className="flex items-center space-x-4 mb-4">
+              <div className="flex items-center space-x-4 mb-4 ">
                 <Mail className=" w-6 h-6" />
                 <div className="text-sm">
                   <Link
@@ -212,8 +212,8 @@ function FooterSection() {
               </div>
             </div>
 
-            <div className="relative z-10 flex flex-col sm:flex-row sm:items-center mt-4 gap-4 sm:gap-6 w-full overflow-hidden">
-              <div className="flex items-center gap-4 sm:gap-6 w-full">
+            <div className="relative z-10 flex flex-col sm:flex-row items-center justify-between mt-4 gap-4 sm:gap-6 w-full overflow-hidden">
+              <div className="flex justify-center gap-7">
                 {/* <ThemeToggle /> */}
                 {socialMediaIcons.map((social) => (
                   <Link
@@ -227,8 +227,8 @@ function FooterSection() {
                   </Link>
                 ))}
               </div>
-              <p className="text-sm sm:text-base font-normal">
-                © 2025. Developed and Maintained by- Anand Dhar Dwivedi
+              <p className="text-sm sm:text-base font-normal text-center">
+                © 2025. Developed and Maintained by Vagsheer Pvt Ltd
               </p>
             </div>
           </div>
@@ -236,16 +236,15 @@ function FooterSection() {
           {/* Logo Shape */}
           <div
             className="-z-10
-    absolute bottom-[199px] right-[200px] transform translate-x-1/2 translate-y-1/2 opacity-40 
+    absolute bottom-[175px] right-[199px] transform translate-x-1/2 translate-y-1/2 opacity-40 
     hidden sm:block"
           >
             <Image
               src="/logos/logo-color-small.svg"
               alt="icons"
               width={400}
-              height={485} // Maintain the aspect ratio
-              // layout="responsive"
-              className="rounded-md"
+              height={485}
+              className="rounded-lg"
             />
           </div>
         </div>

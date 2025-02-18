@@ -42,14 +42,30 @@ export const FloatingNav = ({
     setMenuOpen(false);
   };
 
+  // logo - color - main.svg;
   return (
     <>
       {/* Hamburger button */}
+
       <div
-        className={`fixed top-10 right-5 flex w-full px-10 ${
+        className={`fixed top-10 flex w-full px-8 justify-between ${
           menuOpen ? "z-[6000]" : "z-[5000]"
         } md:hidden`}
       >
+        <Link href={"/"} className="flex items-center justify-start">
+          <Image
+            // src="/logos/logo-color-main.svg"
+            src={
+              menuOpen
+                ? "/logos/logo-black-main.svg"
+                : "/logos/logo-color-main.svg"
+            }
+            alt="Logo"
+            width={30}
+            height={30}
+            quality={90}
+          />
+        </Link>
         {/* Logo on the left */}
         {/* Hamburger Menu on the right */}
         <button
