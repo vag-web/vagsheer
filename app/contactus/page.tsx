@@ -168,7 +168,7 @@ const ContactUs = () => {
   return (
     <PageWrapper>
       <main
-        className="mt-20 lg:m-32 sm:mt-20 relative flex justify-center items-center flex-col 
+        className="mt-20 lg:m-32 sm:mt-20 sm:m-36 relative flex justify-center items-center flex-col 
       overflow-hidden mx-auto sm:px-10"
       >
         <ToastContainer />
