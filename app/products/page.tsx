@@ -27,7 +27,7 @@ const Products = () => {
 
               <div className="text-gray-800 text-base max-w dark:text-neutral-300 mx-4">
                 <h2 className="text-lg font-bold text-gray-800 tracking-wide">
-                  What Our Users Say
+                  What Our User's Say
                 </h2>
 
                 <p className="mt-2">
