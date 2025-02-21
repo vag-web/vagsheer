@@ -153,7 +153,7 @@ const ContactUs = () => {
                       Mon - Fri, 9:00 AM - 5:00 PM
                     </p>
                     <p className="text-indigo-600">+91 7005095682</p>
-                    {/* <p className="text-indigo-600">+91 8419874317</p> */}
+                    <p className="text-indigo-600">+91 8419874317</p>
                   </div>
                   <div>
                     <h2 className="text-lg font-semibold">Regd. Address</h2>
