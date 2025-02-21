@@ -5,7 +5,7 @@ import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Link from "next/link";
 import Button4 from "@/components/ui/NavButton";
-import productImg from "@/public/carousel/c9.jpg";
+
 const droneFeatures = [
   {
     title: "Maximum flight speed: 12 m/s",
@@ -181,8 +181,7 @@ export function ThreeDCardDemo() {
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
-            // src="/carousel/c9.jpg"
-            src={productImg}
+            src="/c9.jpg"
             height="1000"
             width="1000"
             className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
