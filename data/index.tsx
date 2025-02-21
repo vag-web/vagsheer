@@ -3,52 +3,52 @@ export const jobList = [
   {
     title: "Drone Pilot",
     jdLink: "https://example.com/jd-content-writer.pdf", // Dummy PDF link
-    applyLink: "https://forms.gle/dummy-content-writer", // Dummy Google Form link
+    applyLink: "https://forms.gle/b17Ax8t96TZiVgqn7",
   },
   {
     title: "Drone Co-pilot",
     jdLink: "https://example.com/jd-marketing-expert.pdf",
-    applyLink: "https://forms.gle/dummy-marketing-expert",
+    applyLink: "https://forms.gle/b17Ax8t96TZiVgqn7",
   },
   {
     title: "Project Manager",
     jdLink: "https://example.com/jd-sde1.pdf",
-    applyLink: "https://forms.gle/dummy-sde1",
+    applyLink: "https://forms.gle/b17Ax8t96TZiVgqn7",
   },
   {
     title: "Business Development Executive",
     jdLink: "https://example.com/jd-business-dev.pdf",
-    applyLink: "https://forms.gle/dummy-business-dev",
+    applyLink: "https://forms.gle/b17Ax8t96TZiVgqn7",
   },
   {
     title: "Operation Manager",
     jdLink: "https://example.com/jd-graphic-designer.pdf",
-    applyLink: "https://forms.gle/dummy-graphic-designer",
+    applyLink: "https://forms.gle/b17Ax8t96TZiVgqn7",
   },
   {
-    title: "Content Writter",
+    title: "Content Writer",
     jdLink: "https://example.com/jd-operation-intern.pdf",
-    applyLink: "https://forms.gle/dummy-operation-intern",
+    applyLink: "https://forms.gle/b17Ax8t96TZiVgqn7",
   },
   {
     title: "Video Editor",
     jdLink: "https://example.com/jd-aircraft-design.pdf",
-    applyLink: "https://forms.gle/dummy-aircraft-design",
+    applyLink: "https://forms.gle/b17Ax8t96TZiVgqn7",
   },
   {
     title: "GIS Expert",
     jdLink: "https://example.com/jd-aircraft-design.pdf",
-    applyLink: "https://forms.gle/dummy-aircraft-design",
+    applyLink: "https://forms.gle/b17Ax8t96TZiVgqn7",
   },
   {
     title: "System Engineer",
     jdLink: "https://example.com/jd-aircraft-design.pdf",
-    applyLink: "https://forms.gle/dummy-aircraft-design",
+    applyLink: "https://forms.gle/b17Ax8t96TZiVgqn7",
   },
   {
     title: "Python Developer",
     jdLink: "https://example.com/jd-aircraft-design.pdf",
-    applyLink: "https://forms.gle/dummy-aircraft-design",
+    applyLink: "https://forms.gle/b17Ax8t96TZiVgqn7",
   },
 ];
 
