@@ -3,7 +3,8 @@ import React from "react";
 import PageWrapper from "@/components/wrapper/PageWrapper";
 import Link from "next/link";
 import TeamMember from "@/components/ui/TeamMember";
-import { Linkedin } from "lucide-react";
+import { Linkedin, MessageSquare } from "lucide-react";
+
 import Image from "next/image";
 
 const teamMembers = [
@@ -12,12 +13,14 @@ const teamMembers = [
     position: "CEO",
     image: "/member2.jpg",
     url: "https://www.linkedin.com",
+    messageUrl: "https://wa.me/+919794877798",
   },
   {
     name: "Suraj Yadav",
     position: "COO",
     image: "/member1.jpg",
     url: "https://www.linkedin.com",
+    messageUrl: "https://wa.me/+918419874317",
   },
 ];
 
@@ -111,11 +114,18 @@ const About = () => {
                     className="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5 p-2 md:p-4 flex flex-col items-center"
                   >
                     <TeamMember {...member} />
-                    <Link href={member.url}>
-                      <div className="pt-5 flex justify-center items-center gap-4 sm:gap-6">
-                        <Linkedin />
-                      </div>
-                    </Link>
+                    <div className="flex gap-5">
+                      <Link href={member.url}>
+                        <div className="pt-5 flex justify-center items-center gap-4 sm:gap-6">
+                          <Linkedin />
+                        </div>
+                      </Link>
+                      <Link href={member.messageUrl}>
+                        <div className="pt-5 flex justify-center items-center gap-4 sm:gap-6">
+                          <MessageSquare />
+                        </div>
+                      </Link>
+                    </div>
                   </div>
                 ))}
               </div>
