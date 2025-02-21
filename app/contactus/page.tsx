@@ -136,7 +136,7 @@ const ContactUs = () => {
                     </p>
                     <a href="#" className="text-indigo-600">
                       <a
-                        href="https://wa.me/+919794877798"
+                        href="https://wa.me/+917005095682"
                         className=""
                         target="_blank"
                         rel="noopener noreferrer"
@@ -152,8 +152,8 @@ const ContactUs = () => {
                     <p className="text-gray-600">
                       Mon - Fri, 9:00 AM - 5:00 PM
                     </p>
-                    <p className="text-indigo-600">+91 9794877798</p>
-                    <p className="text-indigo-600">+91 8419874317</p>
+                    <p className="text-indigo-600">+91 7005095682</p>
+                    {/* <p className="text-indigo-600">+91 8419874317</p> */}
                   </div>
                   <div>
                     <h2 className="text-lg font-semibold">Regd. Address</h2>
