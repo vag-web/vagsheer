@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { FloatingNav } from "./FloatingNavbar";
 import { navItems } from "@/data";
 import FooterSection from "@/components/wrapper/NewFooter";

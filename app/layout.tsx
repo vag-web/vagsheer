@@ -18,7 +18,23 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>{/* Add favicon links here if needed */}</head>
+      <head>
+        {/* Add favicon links here if needed */}
+        <link rel="icon" href="/favicon.ico" />
+        {/* You can also add other favicons with different sizes if needed */}
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+      </head>
       <body
         className={`${inter.className} bg-white dark:bg-black text-gray-900 dark:text-gray-100`}
       >
