@@ -40,7 +40,7 @@ const images = [
   "/GI.jpg",
   "/grid.svg",
 ];
-const images = () => {
+const Images = () => {
   return (
     <PageWrapper>
       <section className="mt-20 relative flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-7 w-full sm:p-8">
@@ -65,4 +65,4 @@ const images = () => {
   );
 };
 
-export default images;
+export default Images;
