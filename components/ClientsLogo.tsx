@@ -16,6 +16,7 @@ const logosList = [
   "/company/bhel-logo.png",
   "/company/upeida.png",
   "/company/ntpc.png",
+  "/company/lda_logo.jpeg",
 ];
 
 function ClientsLogo() {
