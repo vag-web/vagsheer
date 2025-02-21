@@ -152,7 +152,7 @@ const ContactUs = () => {
                     <p className="text-gray-600">
                       Mon - Fri, 9:00 AM - 5:00 PM
                     </p>
-                    <p className="text-indigo-600">+91 7005095682</p>
+                    <p className="text-indigo-600">+91 9794877798</p>
                     <p className="text-indigo-600">+91 8419874317</p>
                   </div>
                   <div>
