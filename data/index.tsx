@@ -2,52 +2,62 @@
 export const jobList = [
   {
     title: "Drone Pilot",
-    jdLink: "https://example.com/jd-content-writer.pdf", // Dummy PDF link
+    jdLink:
+      "https://drive.google.com/file/d/112WFQyUKT5XRFQ-6_UiEH7vWoPTY53uL/view?usp=sharing",
     applyLink: "https://forms.gle/b17Ax8t96TZiVgqn7",
   },
   {
     title: "Drone Co-pilot",
-    jdLink: "https://example.com/jd-marketing-expert.pdf",
+    jdLink:
+      "https://drive.google.com/file/d/112WFQyUKT5XRFQ-6_UiEH7vWoPTY53uL/view?usp=sharing",
     applyLink: "https://forms.gle/b17Ax8t96TZiVgqn7",
   },
   {
     title: "Project Manager",
-    jdLink: "https://example.com/jd-sde1.pdf",
+    jdLink:
+      "https://drive.google.com/file/d/112WFQyUKT5XRFQ-6_UiEH7vWoPTY53uL/view?usp=sharing",
     applyLink: "https://forms.gle/b17Ax8t96TZiVgqn7",
   },
   {
     title: "Business Development Executive",
-    jdLink: "https://example.com/jd-business-dev.pdf",
+    jdLink:
+      "https://drive.google.com/file/d/112WFQyUKT5XRFQ-6_UiEH7vWoPTY53uL/view?usp=sharing",
     applyLink: "https://forms.gle/b17Ax8t96TZiVgqn7",
   },
   {
     title: "Operation Manager",
-    jdLink: "https://example.com/jd-graphic-designer.pdf",
+    jdLink:
+      "https://drive.google.com/file/d/112WFQyUKT5XRFQ-6_UiEH7vWoPTY53uL/view?usp=sharing",
     applyLink: "https://forms.gle/b17Ax8t96TZiVgqn7",
   },
   {
     title: "Content Writer",
-    jdLink: "https://example.com/jd-operation-intern.pdf",
+    jdLink:
+      "https://drive.google.com/file/d/112WFQyUKT5XRFQ-6_UiEH7vWoPTY53uL/view?usp=sharing",
     applyLink: "https://forms.gle/b17Ax8t96TZiVgqn7",
   },
   {
     title: "Video Editor",
-    jdLink: "https://example.com/jd-aircraft-design.pdf",
+    jdLink:
+      "https://drive.google.com/file/d/112WFQyUKT5XRFQ-6_UiEH7vWoPTY53uL/view?usp=sharing",
     applyLink: "https://forms.gle/b17Ax8t96TZiVgqn7",
   },
   {
     title: "GIS Expert",
-    jdLink: "https://example.com/jd-aircraft-design.pdf",
+    jdLink:
+      "https://drive.google.com/file/d/112WFQyUKT5XRFQ-6_UiEH7vWoPTY53uL/view?usp=sharing",
     applyLink: "https://forms.gle/b17Ax8t96TZiVgqn7",
   },
   {
     title: "System Engineer",
-    jdLink: "https://example.com/jd-aircraft-design.pdf",
+    jdLink:
+      "https://drive.google.com/file/d/112WFQyUKT5XRFQ-6_UiEH7vWoPTY53uL/view?usp=sharing",
     applyLink: "https://forms.gle/b17Ax8t96TZiVgqn7",
   },
   {
     title: "Python Developer",
-    jdLink: "https://example.com/jd-aircraft-design.pdf",
+    jdLink:
+      "https://drive.google.com/file/d/112WFQyUKT5XRFQ-6_UiEH7vWoPTY53uL/view?usp=sharing",
     applyLink: "https://forms.gle/b17Ax8t96TZiVgqn7",
   },
 ];

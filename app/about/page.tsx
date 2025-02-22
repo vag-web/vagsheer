@@ -12,14 +12,14 @@ const teamMembers = [
     name: "Sanket Yadav",
     position: "CEO",
     image: "/member2.jpg",
-    url: "https://www.linkedin.com",
+    url: "https://www.linkedin.com/in/sanket-581021230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     messageUrl: "https://wa.me/+919794877798",
   },
   {
     name: "Suraj Yadav",
     position: "COO",
     image: "/member1.jpg",
-    url: "https://www.linkedin.com",
+    url: "https://www.linkedin.com/in/suraj-761022230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     messageUrl: "https://wa.me/+918419874317",
   },
 ];
