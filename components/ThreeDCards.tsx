@@ -209,7 +209,11 @@ export function ThreeDCardDemo() {
               ))}
             </ul>
             <div className="flex items-center mt-6">
-              <Link href="" className="">
+              <Link
+                href="https://forms.gle/csosTkxHqQCJNSXV9"
+                target="_blank"
+                className=""
+              >
                 <div className="shadow-md">
                   <Button4>Order Now</Button4>
                 </div>
