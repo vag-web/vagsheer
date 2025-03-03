@@ -123,7 +123,7 @@ const ContactUs = () => {
                       Email us and we&apos;ll get back to you within 24 hours.
                     </p>
                     <a
-                      href="mailto:support@untitledui.com"
+                      href="mailto:info@vagsheer.com"
                       className="text-indigo-600"
                     >
                       info@vagsheer.com
