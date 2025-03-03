@@ -69,7 +69,7 @@ export const BentoGridItem = ({
 
   const handleCopy = () => {
     if (isClient && navigator.clipboard) {
-      navigator.clipboard.writeText("Vagsheer@gmail.com").then(() => {
+      navigator.clipboard.writeText("info@vagsheer.com").then(() => {
         setCopied(true);
         setTimeout(() => setCopied(false), 2000); // Reset after 2 seconds
       });
