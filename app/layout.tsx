@@ -7,10 +7,11 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 const websiteUrl = "https://www.vagsheer.com/"; // Update with your actual website URL
-const imageUrl = "https://www.vagsheer.com/logos/full-logo-color.png"; // Update with your actual image URL
+const imageUrl = "https://www.vagsheer.com/logos/logo-color.svg"; // Update with your actual image URL
 
 export const metadata: Metadata = {
-  title: "Vagshree : Aerial Surveys and Engineering Solutions",
+  title:
+    "Vagshree : Aerial Surveys and Engineering Solutions, Work Together Grow Together",
   description: "Elevating Precision, Empowering Industries!",
 };
 
