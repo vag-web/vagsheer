@@ -85,7 +85,7 @@ export const navItems = [
 
   {
     title: "About Us",
-    path: "/about",
+    path: "/about-us",
     isRoute: false,
     isBottom: false,
   },

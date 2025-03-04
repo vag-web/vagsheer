@@ -6,9 +6,8 @@ import { ThemeProvider } from "./provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const websiteUrl = "https://vagsheer-landing.vercel.app/"; // Update with your actual website URL
-const imageUrl =
-  "https://vagsheer-landing.vercel.app/_next/image?url=%2Fc9.jpg&w=2048&q=75"; // Update with your actual image URL
+const websiteUrl = "https://www.vagsheer.com/"; // Update with your actual website URL
+const imageUrl = "https://www.vagsheer.com/logos/full-logo-color.png"; // Update with your actual image URL
 
 export const metadata: Metadata = {
   title: "Vagshree : Aerial Surveys and Engineering Solutions",
@@ -63,20 +62,23 @@ export default function RootLayout({
           content="Vagsheer offers expert aerial surveys, mapping, inspection, and engineering solutions for industries like solar, wind, telecom, and more."
         />
         <meta name="twitter:image" content={imageUrl} />
-        <meta name="twitter:site" content="@yourtwitterhandle" />
+        <meta name="twitter:site" content="@vagsheer" />
 
         {/* Robots Meta Tag */}
         <meta name="robots" content="index, follow" />
 
         {/* Contact Links */}
         <link rel="canonical" href={websiteUrl} />
-        <meta name="support-email" content="mailto:support@untitledui.com" />
+        <meta name="support-email" content="mailto:info@vagsheer.com" />
         <meta name="info-email" content="mailto:info@vagsheer.com" />
-        <meta name="whatsapp" content="https://wa.me/+919794877798" />
+        <meta name="whatsapp" content="https://wa.me/+917005095682" />
 
         {/* Social Media Links */}
-        <meta name="facebook" content="https://facebook.com/vagsheer" />
-        <meta name="linkedin" content="https://linkedin.com/company/vagsheer" />
+        {/* <meta name="facebook" content="https://facebook.com/vagsheer" /> */}
+        <meta
+          name="linkedin"
+          content="https://www.linkedin.com/company/vagsheer/"
+        />
         <meta name="twitter" content="https://twitter.com/vagsheer" />
         <meta name="instagram" content="https://instagram.com/vagsheer" />
         {/* Add favicon links here if needed */}

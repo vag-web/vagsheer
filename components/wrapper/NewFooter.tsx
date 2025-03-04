@@ -78,7 +78,7 @@ function FooterSection() {
                 Products
               </Link>
               <Link
-                href="/about"
+                href="/about-us"
                 className="text-black hover:cursor-pointer text-base sm:text-lg"
               >
                 About Us

@@ -61,7 +61,7 @@ const About = () => {
                     promoting sustainability, diversity, and positive change.
                   </p>
                   <Link
-                    href="/about"
+                    href="/about-us"
                     className="text-purple-500 font-semibold ml-2"
                   >
                     Read more...
